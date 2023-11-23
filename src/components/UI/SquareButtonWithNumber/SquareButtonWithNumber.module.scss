@@ -1,0 +1,22 @@
+.button-with-number {
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    color: #990424;
+    transition: 0.1s;
+    font-family: 'Roboto';
+    font-size: 14px;
+
+    &:hover {
+        background: #99042410;
+    }
+
+    &.active {
+        background: #990424;
+        color: white;
+
+        &:hover {
+            cursor: default;
+        }
+    }
+}
